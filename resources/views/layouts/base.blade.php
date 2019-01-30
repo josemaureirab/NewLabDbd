@@ -38,7 +38,7 @@
 
   <head>
   <meta charset="utf-8">
-  <title>BizPage Bootstrap Template</title>
+  <title>Aerolínea G8</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
@@ -154,7 +154,7 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Aerolínea G8</h3>
+            <h3><i class="fas fa-cat" style="color: white;"></i> Aerolínea G8</h3>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
           </div>
 
@@ -212,7 +212,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=BizPage
         -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a>AerolíneaG8</a>
       </div>
     </div>
   </footer><!-- #footer -->

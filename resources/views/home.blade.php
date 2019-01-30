@@ -10,8 +10,7 @@
     <div class="container-fluid">
       <div id="logo" class="pull-left">
         <h1>
-        <i class="fas fa-1x fa-cat" style="color: white;"></i>
-        <a href="#intro" class="scrollto">Aerolínea G8</a></h1>
+        <a href="#intro" class="scrollto"><i class="fas fa-1x fa-cat" style="color: white;"></i> Aerolínea G8</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="#intro"><img src="{{asset('assets/')}}img/logo.png" alt="" title="" /></a>-->
       </div>
