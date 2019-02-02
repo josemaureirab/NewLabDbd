@@ -11,6 +11,8 @@
 |
 */
 
+Auth::routes();
+
 Route::get('/', function () {
     return view('welcome');
 });
@@ -18,3 +20,4 @@ Route::get('/', function () {
 Route::get('/inicio', function () {
     return view('home');
 });
+
