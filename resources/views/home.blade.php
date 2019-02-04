@@ -150,7 +150,7 @@
                 <img src="{{asset('assets/img/about-plan.jpg')}}" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-list-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Seguros</a></h2>
+              <h2 class="title"><a href="/seguros">Seguros</a></h2>
               <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
               </p>
@@ -163,7 +163,7 @@
                 <img src="{{asset('assets/img/hyatt.jpg')}}" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-eye-outline"></i></div>
               </div>
-              <h2 class="title"><a href="#">Hoteles</a></h2>
+              <h2 class="title"><a href="/hoteles">Hoteles</a></h2>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
               </p>
