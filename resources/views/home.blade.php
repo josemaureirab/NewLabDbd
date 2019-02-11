@@ -137,7 +137,7 @@
                 <img src="{{asset('assets/img/destinos.jpeg')}}" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-plane"></i></div>
               </div>
-              <h2 class="title"><a href="#">Destinos</a></h2>
+              <h2 class="title"><a href="destinos">Destinos</a></h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
@@ -148,7 +148,7 @@
             <div class="about-col">
               <div class="img">
                 <img src="{{asset('assets/img/about-plan.jpg')}}" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-list-outline"></i></div>
+                <div class="icon"><i class="ion-ios-medkit"></i></div>
               </div>
               <h2 class="title"><a href="/seguros">Seguros</a></h2>
               <p>
@@ -161,9 +161,9 @@
             <div class="about-col">
               <div class="img">
                 <img src="{{asset('assets/img/hyatt.jpg')}}" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+                <div class="icon"><i class="ion-ios-home"></i></div>
               </div>
-              <h2 class="title"><a href="/hoteles">Hoteles</a></h2>
+              <h2 class="title"><a href="/reservaHospedaje">Hoteles</a></h2>
               <p>
                 Nemo enim ipsam voluptatem quia voluptas sit aut odit aut fugit, sed quia magni dolores eos qui ratione voluptatem sequi nesciunt Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.
               </p>
@@ -178,7 +178,7 @@
             <div class="about-col">
               <div class="img">
                 <img src="{{asset('assets/img/paquete.jpg')}}" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-paper-airplane"></i></div>
+                <div class="icon"><i class="ion-ios-box"></i></div>
               </div>
               <h2 class="title"><a href="#">Paquetes</a></h2>
               <p>
@@ -191,7 +191,7 @@
             <div class="about-col">
               <div class="img">
                 <img src="{{asset('assets/img/auto.jpg')}}" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-arrow-right"></i></div>
+                <div class="icon"><i class="ion-android-car"></i></div>
               </div>
               <h2 class="title"><a href="#">Autos</a></h2>
               <p>
@@ -204,7 +204,7 @@
             <div class="about-col">
               <div class="img">
                 <img src="{{asset('assets/img/promo.jpg')}}" alt="" class="img-fluid">
-                <div class="icon"><i class="ion-ios-eye-outline"></i></div>
+                <div class="icon"><i class="ion-cash"></i></div>
               </div>
               <h2 class="title"><a href="#">Promociones</a></h2>
               <p>

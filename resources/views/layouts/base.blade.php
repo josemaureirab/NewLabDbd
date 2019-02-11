@@ -98,7 +98,7 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li> -->
-          <li><a href="/inicio#contact">Contact</a></li>
+          <li><a href="/inicio#contact">Contacto</a></li>
           @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar sesión') }}</a>
