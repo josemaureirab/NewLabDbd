@@ -7,7 +7,7 @@
         </div>
         <div class="modal-footer">
             <!-- <button type="button" class="btn btn-success" data-dismiss="modal">Volver</button> -->
-            <a href="/login" class="btn btn-success">Iniciar Sesión</a>
+            <a href="/login" class="btn btn-success ">Iniciar Sesión</a>
             <a href="/register" class="btn btn-success">Registrarse</a>
 
         </div>

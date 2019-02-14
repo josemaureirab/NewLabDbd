@@ -3,9 +3,6 @@
 
 
 
-<!-- Scripts -->
-<script src="{{ asset('js/app.js') }}" defer></script>
-
 
 <form action="/Habitacion" method="get">
 <section id="intro">

@@ -29,9 +29,12 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/', 'HomeController@index')->name('home');
 
+
+
 Route::get('/', function () {
     return view('home');
 });
+
 
 Route::get('/inicio', function () {
     return view('home');
@@ -89,6 +92,11 @@ Route::get('/buscar_autos', function () {
     return View('buscar_autos', ['ciudades' => $ciudades, 'transportes' => $transportes]);
 });
  
+Route::get('/buscar_vuelos', function () {
+    $ciudades = Ciudad::all();
+    $vuelos = Vuelo::all();
+    return View('buscar_vuelos', ['ciudades' => $ciudades, 'vuelos' => $vuelos]);
+});
 
 Route::get('/vuelos', function () {
     $vuelos = Vuelo::all();
@@ -116,6 +124,8 @@ Route::get('/detallesReservaHospedaje', function () {
 Route::get('/detallePaquete', function () {
     return view('detallePaquete');
 });
+
+
 
 Route::get('/Paquete/Reservar/{id}','PaquetesController@respaq')->name('Reservas.respaq');
 Route::get('/Asiento/Reservar/{id}','AsientosController@resas')->name('Reservas.resas');

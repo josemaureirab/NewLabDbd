@@ -20,9 +20,9 @@
             <div class="carousel-background"><img src="{{asset('assets/img/intro-carousel/1.jpg')}}" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>We are professional</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2  style="color: transparent;">We are professional</h2>
+                <p  style="color: transparent;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="/buscar_vuelos" class="btn-get-started scrollto">Buscar tu vuelo soñado</a>
               </div>
             </div>
           </div>
@@ -31,9 +31,9 @@
             <div class="carousel-background"><img src="{{asset('assets/img/intro-carousel/2.jpg')}}" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>At vero eos et accusamus</h2>
-                <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2  style="color: transparent;">At vero eos et accusamus</h2>
+                <p  style="color: transparent;">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut.</p>
+                <a href="/buscar_vuelos" class="btn-get-started scrollto">Buscar tu vuelo soñado</a>
               </div>
             </div>
           </div>
@@ -42,9 +42,9 @@
             <div class="carousel-background"><img src="{{asset('assets/img/intro-carousel/3.jpg')}}" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Temporibus autem quibusdam</h2>
-                <p>Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2  style="color: transparent;">Temporibus autem quibusdam</h2>
+                <p  style="color: transparent;">Beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt omnis iste natus error sit voluptatem accusantium.</p>
+                <a href="/buscar_vuelos" class="btn-get-started scrollto">Buscar tu vuelo soñado</a>
               </div>
             </div>
           </div>
@@ -53,9 +53,9 @@
             <div class="carousel-background"><img src="{{asset('assets/img/intro-carousel/4.jpg')}}" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Nam libero tempore</h2>
-                <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2  style="color: transparent;">Nam libero tempore</h2>
+                <p  style="color: transparent;">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.</p>
+                <a href="/buscar_vuelos" class="btn-get-started scrollto">Buscar tu vuelo soñado</a>
               </div>
             </div>
           </div>
@@ -64,9 +64,9 @@
             <div class="carousel-background"><img src="{{asset('assets/img/intro-carousel/5.jpg')}}" alt=""></div>
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2>Magnam aliquam quaerat</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#featured-services" class="btn-get-started scrollto">Get Started</a>
+                <h2  style="color: transparent;">Magnam aliquam quaerat</h2>
+                <p  style="color: transparent;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <a href="/buscar_vuelos" class="btn-get-started scrollto">Buscar tu vuelo soñado</a>
               </div>
             </div>
           </div>
@@ -119,7 +119,7 @@
     </section><!-- #featured-services -->
 
    <!--==========================
-      About Us Section
+     SERVICIOS
     ============================-->
     <section id="about">
       <div class="container">
@@ -180,7 +180,7 @@
                 <img src="{{asset('assets/img/paquete.jpg')}}" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-ios-box"></i></div>
               </div>
-              <h2 class="title"><a href="#">Paquetes</a></h2>
+              <h2 class="title"><a href="/paquetes">Paquetes</a></h2>
               <p>
                 Lorem ipsum dolor sit amet, consectetur elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
               </p>
@@ -193,7 +193,7 @@
                 <img src="{{asset('assets/img/auto.jpg')}}" alt="" class="img-fluid">
                 <div class="icon"><i class="ion-android-car"></i></div>
               </div>
-              <h2 class="title"><a href="#">Autos</a></h2>
+              <h2 class="title"><a href="/buscar_autos">Autos</a></h2>
               <p>
                 Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
               </p>
