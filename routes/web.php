@@ -47,9 +47,6 @@ Route::get('/paquetes', function () {
 });
 
 
-Route::get('/carrito', function () {
-    return view('carrito');
-});
 
 Route::get('/seguros', function () {
     $seguros = Seguro::all();
@@ -156,3 +153,4 @@ Route::resource('/Beneficio_Seguro','Beneficio_SeguroController');
 Route::resource('/Habitacion_Reserva','Habitacion_ReservaController');
 Route::resource('/Pasajero_Reserva','Pasajero_ReservaController');
 Route::resource('/Transporte_Reserva','Transporte_ReservaController');
+Route::resource('/carrito','CarritoController');

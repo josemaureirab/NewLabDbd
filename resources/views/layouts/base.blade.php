@@ -100,6 +100,12 @@
           </li> -->
           <li><a href="/inicio#contact">Contacto</a></li>
           @guest
+          @else
+              <a title="icono_carrito" method="get" href="{{ route('carrito.show', Auth::user()->id )}}">
+                  <i class="fas fa-shopping-cart fa-2x" style="color: white;"> </i>
+              </a>
+          @endguest
+          @guest
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Iniciar sesión') }}</a>
                             </li>
@@ -113,19 +119,23 @@
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
-
+                                
                                 <div class="dropdown-menu dropdown-menu-right" style="background-color: #212529c7;" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="{{ route('logout') }}"
                                        onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
-
+  
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                         @csrf
                                     </form>
+
+                                    <a class="dropdown-item" href="#">Historial</a>
                                 </div>
                             </li>
+
+                            
                         @endguest
         </ul>
       </nav><!-- #nav-menu-container -->
